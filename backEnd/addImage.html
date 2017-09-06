@@ -80,39 +80,77 @@
          
         </ol>    
             <!-- Card Columns Example Social Feed -->
+            <p><!--Alignment-->
             <hr class="mt-2">
             <div class="card-columns">
 
               <!-- Example Social Card -->
-              <div class="card mb-3">
+              <div>
+              <!--
                 <a href="#">
                   <img class="card-img-top img-fluid w-100" src="https://unsplash.it/700/450?image=610" alt="">
-                </a>
-                <div class="card-body">
-                  <!--Catagory-->
-                  <h6 class="card-title mb-1">
-                    <a href="#">Will Add DD Catagory</a>
-                  </h6>
-                  <!--Distric-->
-                  <h6 class="card-title mb-1">
-                    <a href="#">Will Add DD Aumper</a>
-                  </h6>
-                  <!--Province-->
-                  <h6 class="card-title mb-1">
-                    <a href="#">Will Add DD Province</a>
-                  </h6>
-                  <!--Button Submit-->
-                  <h6 class="card-title mb-1">
-                    <a href="#">Will Add Button Submit</a>
-                  </h6>
+                </a>-->
+                <form action="/action_page.php">
+                   
+                </form>
+
+                <div class="row" >
+                  <!--Left-->
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="usr">Images</label>
+                        <input type="file" name="pic" accept="image/*">
+                    </div>
+                  </div>
+
+                  <!--Right-->
+                  <div class="col-md-6">
+                      <!--Catagory -->
+                      <div class="form-group">
+                        <label for="usr">Catagory</label>
+                        <select  class="form-control">
+                          <option value="saab">Catagory1</option>
+                          <option value="saab">Catagory2</option>
+                        </select>
+                      </div>
+
+                      <!--Distric -->
+                      <div class="form-group">
+                        <label for="usr">Distric</label>
+                        <select  class="form-control">
+                          <option value="saab">Chrong lueng</option>
+                          <option value="saab">Chrong Nung</option>
+                       </select>
+                      </div>
+
+                      <!--Province -->
+                      <div class="form-group">
+                        <label for="usr">Province</label>
+                        <select  class="form-control">
+                          <option value="saab">Bangkok</option>
+                          <option value="saab">Prahtumtane</option>
+                          <option value="saab">Lumpang</option>
+                        </select>
+                      </div>
+
+                    <!--Button Submit-->
+                    <input type="button" onclick="alert('Submit Complete')" value="Submit">
+                  </div>
+
+                
                 </div>
 
               </div>
 
             </div>
-
+            <!--Alignment-->
     </div>
   </div>
+
+    <!-- Scroll to Top Button -->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
 
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
